@@ -17,3 +17,6 @@
     width: 40vh;
     border-radius: 30px;
 }
+.item div{
+    margin-left: 10px;
+}

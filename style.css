@@ -1,11 +1,13 @@
 .container{
     display: flex;
+    flex-wrap:wrap;
     box-sizing: border-box;
-    margin-left: 20px;
-    margin-right: 20px;
-    flex-direction: row;
     font-weight: 700;
+    margin: 0;
 }
+.break {
+    height: 0;
+  }
 .item{
     height: 50vh;
     width: 40vh;

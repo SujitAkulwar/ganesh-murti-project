@@ -1,0 +1,19 @@
+.container{
+    display: flex;
+    box-sizing: border-box;
+    margin-left: 20px;
+    margin-right: 20px;
+    flex-direction: row;
+}
+.item{
+    height: 50vh;
+    width: 40vh;
+    margin: 50px;
+    box-shadow: 5px 5px rgb(58, 58, 58);
+    border-radius: 30px;
+}
+.item img{
+    height: 40vh;
+    width: 40vh;
+    border-radius: 30px;
+}

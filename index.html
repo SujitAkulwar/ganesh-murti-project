@@ -30,29 +30,29 @@
               <div class="modal-body">
                 <nav class="navbar navbar-dark bg-dark">
                   <a class="nav" id="height" style="color: white;">Height : foot</a>
-                  <button class="btn btn-secondary">0 to 1</button>
-                  <button class="btn btn-secondary">1 to 5</button>
-                  <button class="btn btn-secondary">5 to 10</button>
-                  <button class="btn btn-secondary">10 to 20</button>
+                  <button class="btn btn-secondary" id="h1" onclick="h(1)">0 to 1</button>
+                  <button class="btn btn-secondary" id="h2" onclick="h(2)">1 to 5</button>
+                  <button class="btn btn-secondary" id="h3" onclick="h(3)">5 to 10</button>
+                  <button class="btn btn-secondary" id="h4" onclick="h(4)">10 to 20</button>
                 </nav>
                 <nav class="navbar navbar-dark bg-dark">
                   <a class="nav" id="Price" style="color: white;">Price : Rs</a>
-                  <button class="btn btn-secondary">0 to 500</button>
-                  <button class="btn btn-secondary">500 to 1000</button>
-                  <button class="btn btn-secondary">1000 to 5000</button>
-                  <button class="btn btn-secondary">more than 5000</button>
+                  <button class="btn btn-secondary" id="p1" onclick="p(1)">0 to 500</button>
+                  <button class="btn btn-secondary" id="p2" onclick="p(2)">500 to 1000</button>
+                  <button class="btn btn-secondary" id="p3" onclick="p(3)">1000 to 5000</button>
+                  <button class="btn btn-secondary" id="p4" onclick="p(4)">more than 5000</button>
                 </nav>
                 <nav class="navbar navbar-dark bg-dark">
-                  <a class="nav" id="Price" style="color: white;">Sort : </a>
-                  <button class="btn btn-secondary">price : low to high</button>
-                  <button class="btn btn-secondary">price : high to low</button>
-                  <button class="btn btn-secondary">popularity</button>
+                  <a class="nav" id="Sort" style="color: white;">Sort : </a>
+                  <button class="btn btn-secondary" id="s1" onclick="s(1)">price : low to high</button>
+                  <button class="btn btn-secondary" id="s1" onclick="s(2)">price : high to low</button>
+                  <button class="btn btn-secondary" id="s1" onclick="s(3)">popularity</button>
                 </nav>
               </div>
               
               <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary">Save changes</button>
+                <button type="button" class="btn btn-primary" id="save" onclick="save()">Save changes</button>
               </div>
             </div>
           </div>
@@ -72,26 +72,26 @@
       <div class="item"><img src="8.jpg" alt="" srcset=""><div class="container2"><div class="price">price : 800</div><div class="height">height : 8</div></div></div>
       <div class="break"></div>
       <div class="item"><img src="9.jpg" alt="" srcset=""><div class="container2"><div class="price">price : 900</div><div class="height">height : 9</div></div></div>
-      <!-- <div class="item"><img src="10.jpg" alt="" srcset=""></div>
-      <div class="item"><img src="11.jpg" alt="" srcset=""></div>
-      <div class="item"><img src="12.jpg" alt="" srcset=""></div>
+      <div class="item"><img src="10.jpg" alt="" srcset=""><div class="container2"><div class="price">price : 100</div><div class="height">height : 1</div></div></div>
+      <div class="item"><img src="11.jpg" alt="" srcset=""><div class="container2"><div class="price">price : 100</div><div class="height">height : 1</div></div></div>
+      <div class="item"><img src="12.jpg" alt="" srcset=""><div class="container2"><div class="price">price : 100</div><div class="height">height : 1</div></div></div>
       <div class="break"></div>
-      <div class="item"><img src="13.jpg" alt="" srcset=""></div>
-      <div class="item"><img src="14.jpg" alt="" srcset=""></div>
-      <div class="item"><img src="15.jpg" alt="" srcset=""></div>
-      <div class="item"><img src="16.jpg" alt="" srcset=""></div>
+      <div class="item"><img src="13.jpg" alt="" srcset=""><div class="container2"><div class="price">price : 100</div><div class="height">height : 1</div></div></div>
+      <div class="item"><img src="14.jpg" alt="" srcset=""><div class="container2"><div class="price">price : 100</div><div class="height">height : 1</div></div></div>
+      <div class="item"><img src="15.jpg" alt="" srcset=""><div class="container2"><div class="price">price : 100</div><div class="height">height : 1</div></div></div>
+      <div class="item"><img src="16.jpg" alt="" srcset=""><div class="container2"><div class="price">price : 100</div><div class="height">height : 1</div></div></div>
       <div class="break"></div>
-      <div class="item"><img src="17.jpg" alt="" srcset=""></div>
-      <div class="item"><img src="18.jpg" alt="" srcset=""></div>
-      <div class="item"><img src="19.jpg" alt="" srcset=""></div>
-      <div class="item"><img src="20.jpg" alt="" srcset=""></div>
+      <div class="item"><img src="17.jpg" alt="" srcset=""><div class="container2"><div class="price">price : 100</div><div class="height">height : 1</div></div></div>
+      <div class="item"><img src="18.jpg" alt="" srcset=""><div class="container2"><div class="price">price : 100</div><div class="height">height : 1</div></div></div>
+      <div class="item"><img src="19.jpg" alt="" srcset=""><div class="container2"><div class="price">price : 100</div><div class="height">height : 1</div></div></div>
+      <div class="item"><img src="20.jpg" alt="" srcset=""><div class="container2"><div class="price">price : 100</div><div class="height">height : 1</div></div></div>
       <div class="break"></div>
-      <div class="item"><img src="21.jpg" alt="" srcset=""></div>
-      <div class="item"><img src="22.jpg" alt="" srcset=""></div>
-      <div class="item"><img src="23.jpg" alt="" srcset=""></div>
-      <div class="item"><img src="24.jpg" alt="" srcset=""></div>
+      <div class="item"><img src="21.jpg" alt="" srcset=""><div class="container2"><div class="price">price : 100</div><div class="height">height : 1</div></div></div>
+      <div class="item"><img src="22.jpg" alt="" srcset=""><div class="container2"><div class="price">price : 100</div><div class="height">height : 1</div></div></div>
+      <div class="item"><img src="23.jpg" alt="" srcset=""><div class="container2"><div class="price">price : 100</div><div class="height">height : 1</div></div></div>
+      <div class="item"><img src="24.jpg" alt="" srcset=""><div class="container2"><div class="price">price : 100</div><div class="height">height : 1</div></div></div>
       <div class="break"></div>
-      <div class="item"><img src="25.jpg" alt="" srcset=""></div> -->
+      <div class="item"><img src="25.jpg" alt="" srcset=""><div class="container2"><div class="price">price : 100</div><div class="height">height : 1</div></div></div>
     </nav>
 
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->

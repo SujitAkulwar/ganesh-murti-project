@@ -13,7 +13,7 @@
     width: 40vh;
     margin: 50px;
     box-shadow: 5px 5px rgb(58, 58, 58);
-    border-radius: 30px;
+    border-radius: 20px;
     cursor: pointer;
 }
 .item:hover{
@@ -22,7 +22,7 @@
 .item img{
     height: 40vh;
     width: 40vh;
-    border-radius: 30px;
+    border-radius: 20px 20px 0 0;
 }
 .item div{
     margin: 5px;

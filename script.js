@@ -16,4 +16,4 @@ function s(v){
 
 function save(){
     console.log(height,price,sort);
-}
+} 

@@ -57,7 +57,26 @@ function s(v){
 }
 
 function save(){
-    console.log(height,price,sort);
     $(".item").hide();
     sorting(height,price);
 } 
+
+function sorting(height,price){
+    if(height==0 && price==0 && sort==0){
+        console.log(height,price,sort);
+        $(".item").show();
+    }
+    else{
+        if(height==0){$(".item").show();}
+        else if(height==1){$(".h1").show();}
+        else if(height==2){$(".h2").show();}
+        else if(height==3){$(".h3").show();}
+        else if(height==4){$(".h4").show();}
+        if(price==0){$(".item").show();}
+        else if(price==1){$(".s1").show();}
+        else if(price==2){$(".s2").show();}
+        else if(price==3){$(".s3").show();}
+        else if(price==4){$(".s4").show();}
+    }
+
+}

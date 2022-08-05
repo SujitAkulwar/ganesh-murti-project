@@ -18,7 +18,7 @@
 }
 .item:hover{
     background-color: rgb(248, 255, 110);
-} 
+}
 .item img{
     height: 30vh;
     width: 30vh;
@@ -33,4 +33,5 @@
 .item div{
     margin: 0;
     padding-left: 10px;
+    font-size: 20px;
 }

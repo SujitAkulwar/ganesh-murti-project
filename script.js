@@ -39,7 +39,7 @@ function p(v){
         $("#p4").css("background-color", "skyblue");
     }
 }
-
+ 
 function s(v){
     sort = v;
     $(".s").css("color", "white");

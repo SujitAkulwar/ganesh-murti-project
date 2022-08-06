@@ -1,0 +1,43 @@
+.container{
+    margin: 10vh;
+    padding: 0;
+    display: flex;
+    overflow-wrap: break-word;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    height: 70vh;
+    width: 100vh;
+    justify-content: center;
+}
+.left{
+    padding: 5vh;
+    width: 50%;
+}
+.left img{
+    height: 50vh;
+    width: 30vh;
+}
+.right{
+    width: 50%;
+    font-size: 2vh;
+    font-weight: 600;
+}
+.height{
+    margin: 10px;
+}
+.price{
+    margin: 10px;
+}
+.buy{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 5vh;
+}
+button{
+    height: 5vh;
+    width: 15vh;
+}

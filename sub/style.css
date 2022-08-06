@@ -7,9 +7,10 @@
     display: flex;
     flex-wrap: wrap;
     box-sizing: border-box;
-    height: 70vh;
+    height: 90vh;
     width: 100vh;
     justify-content: center;
+    align-items: center;
 }
 .left{
     padding: 5vh;
@@ -17,18 +18,21 @@
 }
 .left img{
     height: 50vh;
-    width: 30vh;
+    width: 40vh;
 }
 .right{
     width: 50%;
-    font-size: 2vh;
+    font-size: 6vh;
     font-weight: 600;
+    margin-right: 0;
 }
 .height{
     margin: 10px;
+    margin-right: 0;
 }
 .price{
     margin: 10px;
+    margin-right: 0;
 }
 .buy{
     display: flex;
@@ -36,8 +40,11 @@
     justify-content: center;
     align-items: center;
     gap: 5vh;
+    margin-right: 0;
 }
 button{
+    font-size: 2vh;
     height: 5vh;
     width: 15vh;
+    margin-right: 0;
 }

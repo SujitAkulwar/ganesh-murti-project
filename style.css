@@ -8,6 +8,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    grid-column: span 1;
 }
 .item{
     height: 40vh;
@@ -18,7 +19,8 @@
     margin: 3vh;
 }
 .item:hover{
-    background-color: rgb(248, 255, 110);
+    background-color: rgb(252, 255, 198);
+    transition:ease-in-out;
 }
 .item img{
     height: 30vh;
@@ -32,6 +34,7 @@
     border-radius: 0 0 0 20px;
     text-align: center;
     justify-content: center;
+    grid-column: span 2;
 }
 .item div{
     margin: 0vh;
